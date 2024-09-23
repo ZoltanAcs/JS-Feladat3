@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+#purple {
+    height: 4vw;
+    width: 96.9%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    padding-left: 6.5vh;
+}
+
+#lightblue{
+    margin: 15px;
+    background-color: aqua;
+    width: 8vh;
+    height: 2.8vh;
+}
+
+#content {
+    display: flex;
+    flex: 1; 
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
+
+#green {
+    height: 90vh; 
+    width: 33%;
+    background-color: green;
+    margin: 0.4vh;
+}
+
+#yellow {
+    height: 90vh; 
+    width: 67%;
+    background-color: yellow;
+    margin: 0.4vh;
+}
+#gray{
+    background-color: gray;
+    height: 4vw;
+    width: 92.5%;
+    align-self: center;
+}
